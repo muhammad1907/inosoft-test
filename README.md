@@ -19,4 +19,12 @@ kemudian install composer dengan menggunakan perintah
 
 composer install
 
+dan tambahkan .env files
+DB_MONGO_CONNECTION=mongodb
+DB_MONGO_HOST=localhost
+DB_MONGO_PORT=27017
+DB_MONGO_DATABASE=inosoft-db
+DB_MONGO_USERNAME=inosoft_user
+DB_MONGO_PASSWORD=inosoft_pwd
+
 sesudah semua terinstall maka bisa menjalankan aplikasi tersebut dengan menggunakan perintah php artisan serve
